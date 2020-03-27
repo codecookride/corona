@@ -1,0 +1,109 @@
+body {
+  margin: 0 auto;
+  width: 90%;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgb(41, 141, 180) 100%);
+  font-family:Times;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+section {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: flex-start; 
+}
+
+.section {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+ 
+}
+
+
+nav{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  border-bottom:2px solid darkslategray;
+  background-color: #B7AAB3;
+
+
+}
+.card {
+ 
+  width:250px;
+  height: 390px;
+  border-radius: 10px;
+  border: 2px solid rgb(7, 7, 59);
+  margin: 5px;
+  text-align: center;
+  background:linear-gradient(to bottom, #747185 , #B7AAB3);
+ 
+}
+
+h1 {
+  text-align: center;
+ 
+}
+
+span {
+  color: rgb(112, 10, 10);
+}
+
+.life {
+  color: rgb(9, 97, 9);
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-size: x-large;
+ 
+}
+
+p {
+
+  text-align: center;
+}
+
+.smalldiv {
+  border: 2px solid darkblue;
+  padding: 5px;
+  margin:3px;
+  background-color: #B7AAB3;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.statediv {
+  border: 2px solid darkblue;
+  padding: 5px;
+  margin:3px;
+  background-color: #B7AAB3;
+  border-radius: 10px;
+  width:150px;
+
+}
+
+@media only screen and (max-device-width: 500px) {
+
+  section{
+    flex-flow: column;
+  }
+
+  .section{
+    flex-flow: column;
+  }
+
+}
