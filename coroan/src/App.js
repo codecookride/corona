@@ -9,6 +9,7 @@ import Massachusetts from "./massachusetts"
 import California from "./california"
 import Hawaii from "./hawaii"
 import StateOverview from "./stateoverview"
+import Montana from "./montana"
 import Home from "./home"
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
   <Link to="/california">Cali</Link>
   <Link to="/massachusetts">Mass</Link>
   <Link to="/hawaii">Hawaii</Link>
+  <Link to="/montana">Montana</Link>
   <Link to="/countries">World</Link>
   <Link to="/stateoverview">States</Link>
 
@@ -34,6 +36,7 @@ function App() {
   <Route  path = '/massachusetts' component = {Massachusetts}/>
   <Route  path = '/california' component = {California}/>
   <Route  path = '/hawaii' component = {Hawaii}/>
+  <Route  path = '/montana' component = {Montana}/>
   <Route  path = '/stateoverview' component = {StateOverview}/>
   </div>
   )
