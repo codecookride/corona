@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/codecookride/corona/static/css/main.cd8c3e97.chunk.css",
+    "main.js": "/codecookride/corona/static/js/main.41999735.chunk.js",
+    "main.js.map": "/codecookride/corona/static/js/main.41999735.chunk.js.map",
+    "runtime-main.js": "/codecookride/corona/static/js/runtime-main.4d927c0a.js",
+    "runtime-main.js.map": "/codecookride/corona/static/js/runtime-main.4d927c0a.js.map",
+    "static/js/2.4236eb86.chunk.js": "/codecookride/corona/static/js/2.4236eb86.chunk.js",
+    "static/js/2.4236eb86.chunk.js.map": "/codecookride/corona/static/js/2.4236eb86.chunk.js.map",
+    "index.html": "/codecookride/corona/index.html",
+    "precache-manifest.8c9f0a84323d7eec7299f9767384bc95.js": "/codecookride/corona/precache-manifest.8c9f0a84323d7eec7299f9767384bc95.js",
+    "service-worker.js": "/codecookride/corona/service-worker.js",
+    "static/css/main.cd8c3e97.chunk.css.map": "/codecookride/corona/static/css/main.cd8c3e97.chunk.css.map",
+    "static/js/2.4236eb86.chunk.js.LICENSE.txt": "/codecookride/corona/static/js/2.4236eb86.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d927c0a.js",
+    "static/js/2.4236eb86.chunk.js",
+    "static/css/main.cd8c3e97.chunk.css",
+    "static/js/main.41999735.chunk.js"
+  ]
+}
