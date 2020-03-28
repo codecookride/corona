@@ -1,6 +1,5 @@
 {
-  "homepage": "https://github.com/codecookride/corona",
-  "name": "coroan",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
