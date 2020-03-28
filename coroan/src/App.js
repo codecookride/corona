@@ -27,7 +27,7 @@ function App() {
 
   
   </nav>
-  <Route exact path ="/" component= {Home}/>
+  <Route exact path ="/corona" component= {Home}/>
   <Route path = '/countries' component = {Countries}/>
   <Route  path = '/oregon' component = {States}/>
   <Route  path = '/idaho' component = {Idaho}/>
