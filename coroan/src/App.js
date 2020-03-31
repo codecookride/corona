@@ -18,12 +18,12 @@ function App() {
 <div>
   <nav>
   
-  <Link to="/oregon">Oregon</Link>
+  {/* <Link to="/oregon">Oregon</Link>
   <Link to="/idaho">Idaho</Link>
   <Link to="/california">Cali</Link>
   <Link to="/massachusetts">Mass</Link>
   <Link to="/hawaii">Hawaii</Link>
-  <Link to="/montana">Montana</Link>
+  <Link to="/montana">Montana</Link> */}
   <Link to="/countries">World</Link>
   <Link to="/stateoverview">States</Link>
 
