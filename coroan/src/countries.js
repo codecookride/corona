@@ -22,7 +22,12 @@ function Countries() {
       })
          .then((response)=>{
            console.log(response.data.response)
-            setCountryStats(response.data.response)
+           const myData = [].concat(response.data.response)
+             setCountryStats(myData.sort((a, b) =>{
+                 return b.deaths.total - a.deaths.total}))
+
+
+            // setCountryStats(response.data.response)
          })
          .catch((error)=>{
            console.log(error)
@@ -51,13 +56,13 @@ function Countries() {
              
              <div className= "card" >
            <h2 className="chart">{item.country}</h2>
-           <h2 className ="chart">{item.cases.total} </h2>
+           <h3 className ="chart">{item.cases.total} </h3>
            
-           <h2 className ="chart"><span>{item.deaths.total}</span></h2>
+           <h3 className ="chart"><span>{item.deaths.total}</span></h3>
            
-           <h2 className ="chart">{item.cases.recovered}</h2>
-           <h2 className ="chart">{item.deaths.new}</h2>
-           <h2 className ="chart">{item.cases.new}</h2>
+           <h3 className ="chart">{item.cases.recovered}</h3>
+           <h3 className ="chart">{item.deaths.new}</h3>
+           <h3 className ="chart">{item.cases.new}</h3>
            
            </div>
            

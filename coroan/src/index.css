@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background:rgb(175, 187, 187);
-  font-family:Times;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 code {

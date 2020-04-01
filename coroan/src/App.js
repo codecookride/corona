@@ -29,7 +29,7 @@ function App() {
 
   
   </nav>
-  <Route exact path ="/corona" component= {Home}/>
+  <Route exact path ="/" component= {Countries}/>
   <Route path = '/countries' component = {Countries}/>
   <Route  path = '/oregon' component = {States}/>
   <Route  path = '/idaho' component = {Idaho}/>
